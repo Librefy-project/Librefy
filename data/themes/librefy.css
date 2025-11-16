@@ -1,0 +1,516 @@
+/* Librefy - Leaf Green Theme System */
+
+/* Light Theme - Verde Folha Claro */
+.light-theme {
+    background-color: #F0F8F0;
+    color: #2F4F4F;
+}
+
+.light-theme window {
+    background-color: #F0F8F0;
+}
+
+.light-theme scrolledwindow {
+    background-color: #F0F8F0;
+}
+
+.light-theme scrolledwindow viewport {
+    background-color: #F0F8F0;
+}
+
+.light-theme scrolledwindow box {
+    background-color: #F0F8F0;
+}
+
+.light-theme box {
+    background-color: #F0F8F0;
+}
+
+.light-theme .sidebar {
+    background: linear-gradient(135deg, #E8F5E8 0%, #F0F8F0 100%);
+    border-right: 1px solid #C8E6C9;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.light-theme .sidebar label {
+    background: transparent;
+    color: #2E8B57;
+    font-weight: bold;
+}
+
+.light-theme .sidebar button {
+    background: transparent;
+    color: #2F4F4F;
+    border: 1px solid transparent;
+    border-radius: 12px;
+}
+
+.light-theme .sidebar button:hover {
+    background: #2E8B57;
+    color: white;
+    border-color: #2E8B57;
+}
+
+.light-theme .player-controls {
+    background: #E8F5E8;
+    border-top: 1px solid #C8E6C9;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0px 10px 0px 10px;
+}
+
+.light-theme .player-controls button {
+    background: #2E8B57;
+    color: white;
+    border-radius: 50%;
+    border: 2px solid #2E8B57;
+}
+
+.light-theme .player-controls button:hover {
+    background: #3CB371;
+    border-color: #3CB371;
+}
+
+/* TEXTO DO PLAYER - ALTO CONTRASTE */
+.light-theme .player-controls label {
+    color: #2F4F4F !important;
+    font-weight: 600;
+}
+
+.light-theme .player-controls .song-title {
+    color: #1F3F1F !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.light-theme .player-controls .song-artist {
+    color: #2F4F4F !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.light-theme .title-1 {
+    color: #2E8B57;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.light-theme .title-4 {
+    color: #2F4F4F;
+    font-size: 16px;
+}
+
+/* Dark Theme - Verde Folha Escuro */
+.dark-theme {
+    background-color: #1A1F2A;
+    color: #E2E8F0;
+}
+
+.dark-theme window {
+    background-color: #1A1F2A;
+}
+
+.dark-theme scrolledwindow {
+    background-color: #1A1F2A;
+}
+
+.dark-theme scrolledwindow viewport {
+    background-color: #1A1F2A;
+}
+
+.dark-theme scrolledwindow box {
+    background-color: #1A1F2A;
+}
+
+.dark-theme box {
+    background-color: #1A1F2A;
+}
+
+.dark-theme .sidebar {
+    background: linear-gradient(135deg, #2D3748 0%, #1A1F2A 100%);
+    border-right: 1px solid #4A5568;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.dark-theme .sidebar label {
+    background: transparent;
+    color: #3CB371;
+    font-weight: bold;
+}
+
+.dark-theme .sidebar button {
+    background: transparent;
+    color: #E2E8F0;
+    border: 1px solid transparent;
+    border-radius: 12px;
+}
+
+.dark-theme .sidebar button:hover {
+    background: #3CB371;
+    color: white;
+    border-color: #3CB371;
+}
+
+.dark-theme .player-controls {
+    background: #2D3748;
+    border-top: 1px solid #4A5568;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0px 10px 0px 10px;
+}
+
+.dark-theme .player-controls button {
+    background: #3CB371;
+    color: white;
+    border-radius: 50%;
+    border: 2px solid #3CB371;
+}
+
+.dark-theme .player-controls button:hover {
+    background: #4EC97F;
+    border-color: #4EC97F;
+}
+
+/* TEXTO DO PLAYER - ALTO CONTRASTE NO TEMA ESCURO */
+.dark-theme .player-controls label {
+    color: #E2E8F0 !important;
+    font-weight: 600;
+}
+
+.dark-theme .player-controls .song-title {
+    color: #FFFFFF !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dark-theme .player-controls .song-artist {
+    color: #CBD5E0 !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dark-theme .title-1 {
+    color: #3CB371;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.dark-theme .title-4 {
+    color: #E2E8F0;
+    font-size: 16px;
+}
+
+.dark-theme .dim-label {
+    color: #A0AEC0;
+}
+
+/* Base Styles - Aplicam a ambos os temas */
+.sidebar {
+    padding: 15px;
+}
+
+.sidebar button {
+    border: none;
+    border-radius: 12px;
+    padding: 10px 15px;
+    transition: all 0.2s ease-in-out;
+    text-align: left;
+    margin: 4px 0;
+}
+
+.sidebar button:hover {
+    transform: translateX(5px);
+}
+
+.player-controls {
+    padding: 20px;
+}
+
+.player-controls button {
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.album-art {
+    border-radius: 12px;
+    font-size: 24px;
+    padding: 15px;
+    min-width: 60px;
+    min-height: 60px;
+    text-align: center;
+    background: linear-gradient(135deg, #2E8B57, #3CB371);
+    color: white;
+}
+
+.light-theme .album-art {
+    background: linear-gradient(135deg, #2E8B57, #3CB371);
+}
+
+.dark-theme .album-art {
+    background: linear-gradient(135deg, #3CB371, #4EC97F);
+}
+
+/* Botões gerais */
+button {
+    border-radius: 12px;
+    border: 1px solid;
+    padding: 10px 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.light-theme button {
+    border-color: #C8E6C9;
+}
+
+.dark-theme button {
+    border-color: #4A5568;
+}
+
+button:hover {
+    border-radius: 12px;
+    transform: translateY(-2px);
+}
+
+.light-theme button:hover {
+    box-shadow: 0 4px 8px rgba(46, 139, 87, 0.2);
+}
+
+.dark-theme button:hover {
+    box-shadow: 0 4px 8px rgba(60, 179, 113, 0.3);
+}
+
+/* Separador */
+sidebar separator {
+    margin: 15px 0;
+    border-radius: 2px;
+}
+
+.light-theme separator {
+    background-color: #C8E6C9;
+}
+
+.dark-theme separator {
+    background-color: #4A5568;
+}
+
+/* Efeitos de elevação */
+.sidebar, .player-controls {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dark-theme .sidebar, 
+.dark-theme .player-controls {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Labels de tempo no player */
+.player-controls .time-label {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.light-theme .player-controls .time-label {
+    color: #2F4F4F !important;
+}
+
+.dark-theme .player-controls .time-label {
+    color: #CBD5E0 !important;
+}
+
+/* Transições suaves para tema */
+* {
+    transition: background-color 0.3s ease, 
+                color 0.3s ease, 
+                border-color 0.3s ease, 
+                box-shadow 0.3s ease;
+}
+
+/* CSS PARA LINHAS DE MÚSICA */
+.song-album-art {
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 8px;
+    min-width: 40px;
+    min-height: 40px;
+    text-align: center;
+    color: white;
+}
+
+.light-theme .song-album-art {
+    background: linear-gradient(135deg, #2E8B57, #3CB371);
+}
+
+.dark-theme .song-album-art {
+    background: linear-gradient(135deg, #3CB371, #4EC97F);
+}
+
+.song-title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.light-theme .song-title {
+    color: #2F4F4F;
+}
+
+.dark-theme .song-title {
+    color: #E2E8F0;
+}
+
+.song-artist {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.light-theme .song-artist {
+    color: #2F4F4F;
+    opacity: 0.8;
+}
+
+.dark-theme .song-artist {
+    color: #CBD5E0;
+    opacity: 0.8;
+}
+
+/* BOTÃO PLAY DAS LINHAS - CORRIGIDO */
+.song-play-btn {
+    background: transparent;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 8px;
+    min-width: 35px;
+    min-height: 35px;
+    font-size: 12px;
+    transition: all 0.2s ease;
+
+}
+
+.light-theme .song-play-btn {
+    border-color: #1F6B3A; /* Verde mais escuro no tema claro */
+    color: #1F6B3A; /* Verde mais escuro no tema claro */
+}
+
+.dark-theme .song-play-btn {
+    border-color: #3CB371;
+    color: #3CB371;
+}
+
+.song-play-btn:hover {
+    background: #2E8B57;
+    color: white;
+    transform: scale(1.1);
+}
+
+.dark-theme .song-play-btn:hover {
+    background: #3CB371;
+}
+
+/* Caixa das linhas de música - SEM BORDA */
+listboxrow {
+    border-radius: 8px;
+    margin: 2px 5px;
+    transition: all 0.2s ease;
+    padding: 5px;
+    border: none !important; /* Remove qualquer borda */
+}
+
+.light-theme listboxrow {
+    background: white;
+}
+
+.dark-theme listboxrow {
+    background: #2D3748;
+}
+
+.light-theme listboxrow:hover {
+    background: rgba(46, 139, 87, 0.1);
+}
+
+.dark-theme listboxrow:hover {
+    background: rgba(60, 179, 113, 0.1);
+}
+
+/* Song list container */
+.song-list {
+    margin-top: 20px;
+}
+
+.song-list-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.light-theme .song-list-header {
+    color: #2E8B57;
+}
+
+.dark-theme .song-list-header {
+    color: #3CB371;
+}
+
+/* Progress bar styling */
+progressbar {
+    border-radius: 10px;
+}
+
+.light-theme progressbar {
+    background: #C8E6C9;
+}
+
+.light-theme progressbar > trough > progress {
+    background: #2E8B57;
+}
+
+.dark-theme progressbar {
+    background: #4A5568;
+}
+
+.dark-theme progressbar > trough > progress {
+    background: #3CB371;
+}
+
+/* Área de informações da música atual */
+.light-theme .player-controls box {
+    background: transparent;
+}
+
+.dark-theme .player-controls box {
+    background: transparent;
+}
+
+/* Garantir que as áreas de texto no player tenham fundo */
+.light-theme .player-controls .song-info-box {
+    background: transparent;
+}
+
+.dark-theme .player-controls .song-info-box {
+    background: transparent;
+}
+
+/* Textos do player */
+.light-theme .player-controls .current-song-title {
+    color: #1F3F1F !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.light-theme .player-controls .current-song-artist {
+    color: #2F4F4F !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dark-theme .player-controls .current-song-title {
+    color: #FFFFFF !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dark-theme .player-controls .current-song-artist {
+    color: #CBD5E0 !important;
+    font-size: 14px;
+    font-weight: 500;
+}
