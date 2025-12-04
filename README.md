@@ -34,9 +34,13 @@ cargo run
 ## 📝 Roadmap
 
 •Basic music player
+
 •Local library management
+
 •GTK4 interface
+
 •Playlist support
+
 •Flatpak package
 
 ## 🤝 Contributing
